@@ -1,0 +1,93 @@
+h1{
+    background-color:black;
+    color: black;
+    padding: 12px 20px;
+    border-style: solid;
+    margin-left: 1em;
+
+}
+h2{
+        background-color:grey;
+        color: black;
+        padding: 12px 20px;
+        border-style: solid;
+
+        margin-top: 3em;
+        margin-left: 0em;
+}
+section{
+    margin:1rem;
+    padding:2rem;
+    background-color:papayawhip;
+    color:black;
+    border-radius: 2em;
+}
+aside{
+    margin:1rem;
+    padding:2rem;
+    background-color:papayawhip;;
+    color:black;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type=number],select.textarea{
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=reset]:hover {
+      background-color: #45a049
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  table td,th,tr{
+    border:solid black;
+    color:black;
+  background-color: pink;
+  width:80%;
+  height:55px;
+}
+
+  footer
+  {
+    margin-top:10em;
+  }
